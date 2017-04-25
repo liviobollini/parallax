@@ -1,0 +1,103 @@
+/* stile generale */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padding tra sezioni */
+.padding{
+  padding: 50px 5px;
+}
+.padding img {
+  width: 100%;
+}
+
+/* testto sottofondo home e viaggi */
+.text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+    color:white;
+
+}
+.text h1 h2 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*sezioni parallax */
+#home {
+  background: url(../immagini/parigi.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color:white;
+}
+
+
+
+#viaggi {
+  background: url(../immagini/cileo.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#footer {
+  background: url(../immagini/cileo.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*altre sezioni*/
+.sono {
+background-color:aliceblue;
+}
+
+/*controllo carosello immagini*/
+.carousel-control {
+  padding-top:7%;
+  width:5%;
+}
+
+.carousel-control.right{
+    
+    font-size:30px;
+}
+
+
+
+/*footer*/
+footer {
+  padding: 20px 0;
+      color: #333333;
+  font-size: 20px;
+}
+
+footer:hover {
+  color: #306d9f;
+    font-size: 25px;
+}
+
+
+
+
+

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <title>esempio sito Parallax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- includi stili CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/style_menu_collapse.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5">
+<link rel="stylesheet" href="css/style_contatti.css">
+<!--<link rel="stylesheet" href="css/style_log.css">-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+
+ <!-- menu di bootstrap con stile_menu_collapse.css  -->
+ 
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- bottone toogle del menu  -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- corpo del menu -->
+      <div class="navbar-brand"><img src="immagini/logo.png" width="90" height="19" alt="logo"></div>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      
+   <li><a href="../index.php">
+       <i style="font-size:20px;color:white" class="fa fa-home"></i></a></li>
+        <li><a href="#chi_sono">Chi sono</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+     
+        <li><a href="#viaggi">Viaggi</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Cerca nel sito">
+        </div>
+        <button type="submit" class="btn btn-default">Invia</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#footer">Area riservata</a></li>
+   
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- prima parte scritta sfondo alla prima immagine  -->
+
+<div id="home" class="home ">
+
+  <div class="text">
+   
+    <h1>I miei viaggi </h1>
+    <h3>Fotografie e esperienze</h3>
+    <br><br>
+    <a href="../index.php" class="btn btn-default btn-success"><b>torna al sito</b> </a>
+  </div>
+</div>
+
+
+
+  <!-- seconda parte  - chi sono  -->
+<div id="chi_sono" class="paddding">
+  <div class="container-fluid">
+    <div class="row sono">
+      <div class="col-md-6 hidden-xs" >
+      
+        <img src="immagini/sono.png"  width="100%" alt="chi sono"  style="border-radius:80%"/>
+   
+      </div>
+      <div class="col-md-6 text-center">
+        <h2  style="margin-top:140px;">Chi sono </h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+
+
+  <!-- terza parte   - viaggo -->
+ <div id="viaggi" class="padding" >
+  <div class="container" style="height:300px">
+    <div class="row">
+<div class="container">
+    <div class="col-md-12">
+         <h1 style="color:white">America</h1>
+
+        <div class="well">
+            <div id="myCarousel" class="carousel slide">
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+
+                           
+                             <a class="fancybox " rel="group" href="immagini/viaggio/img1.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img1.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                           <div class="col-sm-4">  <a class="fancybox " rel="group" href="immagini/viaggio/img2.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img2.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                         <div class="col-sm-4">  <a class="fancybox " rel="group" href="immagini/viaggio/img3.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img3.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                    <div class="row">
+                            <div class="col-sm-4">
+
+                           
+                             <a class="fancybox " rel="group" href="immagini/viaggio/img1.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img1.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                           <div class="col-sm-4">  <a class="fancybox " rel="group" href="immagini/viaggio/img2.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img2.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                         <div class="col-sm-4">  <a class="fancybox " rel="group" href="immagini/viaggio/img3.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/viaggio/img3.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+              
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            </div>
+            <!--/myCarousel-->
+        </div>
+        <!--/well-->
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="container" style="height:300px">
+    <div class="row">
+<div class="container">
+    <div class="col-md-12">
+          <br><br>
+         <h1 style="color:white">Europa</h1>
+<div class="well">
+            <div id="myCarousel1" class="carousel slide">
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+
+                           
+                             <a class="fancybox " rel="group1" href="immagini/cileo.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/cileo.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                           <div class="col-sm-4">  <a class="fancybox " rel="group1" href="immagini/parigi.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/parigi.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                         <div class="col-sm-4">  <a class="fancybox " rel="group1" href="immagini/parigi1.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/parigi1.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                         <div class="row">
+                            <div class="col-sm-4">
+
+                           
+                             <a class="fancybox " rel="group1" href="immagini/cileo.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/cileo.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                           <div class="col-sm-4">  <a class="fancybox " rel="group1" href="immagini/parigi.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/parigi.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+                         <div class="col-sm-4">  <a class="fancybox " rel="group1" href="immagini/parigi1.jpg" style="cursor:pointer" width="750" height="550"><img src="immagini/parigi1.jpg" alt="Image" class="img-responsive" style="width:300px;height:200px"></a>
+                            </div>
+
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+              
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel1" data-slide="prev">‹</a>
+
+                <a class="right carousel-control" href="#myCarousel1" data-slide="next">›</a>
+            </div>
+            <!--/myCarousel-->
+        </div>
+    
+        <!--/well-->
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+<!-- /quarta section -->
+
+  
+  <!-- quarta parte contatti -->
+<div id="contatti" class="padding">
+  <div class="container-fluid">
+    <div class="row">
+ 
+    
+      <div class="col-md-12 text-center">
+          <div class="inner contact">
+              <br>
+               <h1 style="text-align:center" id="title">CONTATTACI</h1>
+              <br>
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="#">
+                        <!-- Left Inputs -->
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-md-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="nome" id="nome" required="required" class="form" placeholder="Nome" />
+                            <!-- Email -->
+                            <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="text" name="oggetto" id="oggetto" required="required" class="form" placeholder="oggetto" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-md-6   wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                      
+                        <textarea name="testo" id="testo" class="form textarea"  placeholder="scrivi il tuo messaggio"></textarea>
+                           
+                        </div><!-- End Right Inputs -->
+                        </div>
+                        </div>
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Invia messaggio</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+<br>
+                  
+
+                </div><!-- End Contact Form Area -->
+            </div>
+      </div>
+    </div>
+    </div>
+    </div>
+     
+
+
+
+
+<!-- footer -->
+<div id="footer" >
+
+<div class="container">
+	<div class="row">
+	    <div class="col-md-6 col-md-offset-3" style="margin-top:190px">
+		<div class="form-box">
+        <h1 style="color:white">Benvenuto <span>Area riservata</span></h1>
+    	    <form role="form" id="contact-form">
+            <!-- name field -->
+                <div class="form-group">
+                <div id="nameError" class="sr-only" role="alert"></div>
+                <label for="form-name-field" class="sr-only">Nome</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                        <input type="text" class="form-control" id="form-name-field" value="" placeholder="nome">
+                    </div>
+                </div>
+            <!-- email field -->
+                <div class="form-group">
+                <div id="emailError" class="sr-only" role="alert"></div>
+                <label for="form-email-field" class="sr-only">Password</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input type="password" class="form-control" id="form-email-field" value="" placeholder="password">
+                    </div>
+                </div>
+            
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="checkbox-form">accetto le regole privacy
+                </label>
+       
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Invia</button>
+    
+    	    </form>  
+                
+                  
+                 <br>
+
+		</div>
+		<hr>        
+
+	</div>>
+                        <div class="col-md-6 col-md-offset-5" >
+                       
+	                	   <div class="text" >
+   
+    <h1 >I miei viaggi </h1>
+    <br>
+
+    <a href="#home" class="btn btn-default btn-block" style="text-align:center;">Home</a>
+  </div>
+        </div>
+
+</div>
+    </div>
+</div>
+ 
+
+ 
+
+
+
+<!-- /footer -->
+
+
+  <!-- script JS -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/fancy.js"></script>
+  
+
+
+
+</body>
+</html>
